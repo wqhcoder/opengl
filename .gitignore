@@ -1,0 +1,16 @@
+# 消除
+~*.docx
+*.pdf
+**.pdf
+*/*.pdf
+/*.pdf
+/编程指南
+computer_graphics/
+openg_1/
+redbook/
+OpenGLcjbd_pdf.zip
+red book/
+code/
+demo/
+lib/
+opengl_src/
