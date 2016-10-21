@@ -1,0 +1,15 @@
+D:/E/profiles/opengl/assimp/build/CMakeFiles/uninstall.dir
+D:/E/profiles/opengl/assimp/build/CMakeFiles/INSTALL.dir
+D:/E/profiles/opengl/assimp/build/CMakeFiles/ALL_BUILD.dir
+D:/E/profiles/opengl/assimp/build/CMakeFiles/ZERO_CHECK.dir
+D:/E/profiles/opengl/assimp/build/contrib/zlib/CMakeFiles/zlibstatic.dir
+D:/E/profiles/opengl/assimp/build/contrib/zlib/CMakeFiles/INSTALL.dir
+D:/E/profiles/opengl/assimp/build/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+D:/E/profiles/opengl/assimp/build/code/CMakeFiles/assimp.dir
+D:/E/profiles/opengl/assimp/build/code/CMakeFiles/INSTALL.dir
+D:/E/profiles/opengl/assimp/build/tools/assimp_view/CMakeFiles/assimp_viewer.dir
+D:/E/profiles/opengl/assimp/build/tools/assimp_view/CMakeFiles/INSTALL.dir
+D:/E/profiles/opengl/assimp/build/tools/assimp_cmd/CMakeFiles/assimp_cmd.dir
+D:/E/profiles/opengl/assimp/build/tools/assimp_cmd/CMakeFiles/INSTALL.dir
+D:/E/profiles/opengl/assimp/build/test/CMakeFiles/INSTALL.dir
+D:/E/profiles/opengl/assimp/build/test/CMakeFiles/unit.dir

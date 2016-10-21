@@ -1,0 +1,58 @@
+http://www.mamicode.com/info-detail-1148012.html
+
+http://www.itnose.net/news/184/6366571   vs2012编译assimp库
+
+可能的错误：
+http://www.microsoft.com/en-us/download/details.aspx?id=6812
+
+
+
+Assimp库直接下载下来的是VS06 VS08的，如果是以上版本，.lib .dll是没用的，见官网。
+
+所以我们下载源码编译。以assimp-3.1.1为例。
+
+需要下载的
+
+-        assimp-3.1.1.zip包或git下来，打开后有include目录的头文件可以用。
+
+-        DirectX SDK 下载，安装
+
+-        cmake ，assimp里一批的makefile。。
+
+ 
+
+步骤：
+
+  先安装cmake，Direcx，解压.zip得到assimp-3.1.1目录
+
+  打开cmake GUI (命令行也可以，教程见官网)，将assimp-3.1.1添加进源目录，生成结果你看着办，最后我们生成的文件就在这里，我设置的是在assimp-3.1.1\output目录，output是我刚创建的
+
+  点击开始confiure
+
+ 
+
+   注意：有两个主要会出现的，
+
+一是找不到Directx，没有安装，装上就好了。
+
+     二是zlib可能会出问题，提示是makefilelist第四行project(zlib C)会将project。
+
+zlib在contrib(第三方库)目录下，打开zlib，编辑makefilelist 将project(zlib C)替换成以下代码。
+
+ 
+
+cmake_policy(PUSH)
+
+if(CMAKE_MAJOR_VERSION GREATER 2)
+
+          cmake_policy(SET CMP0048 OLD)
+
+endif()
+
+project(zlib C)
+
+cmake_policy(POP)
+
+ 
+
+set(VERSION "1.2.8")
